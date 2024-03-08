@@ -1,10 +1,10 @@
 
-	const caseOne = document.querySelector('.item-back__left--js')
-	const caseTwo = document.querySelector('.item-back__right--js')
-	const leftButton = document.querySelector('.front-item__left--js')
-	const rightButton = document.querySelector('.front-item__right--js')
-	const leftSection = document.querySelector('.item__left--js')
-	const rightSection = document.querySelector('.item__right--js')
+	const caseOne = document.querySelector('.item-left__back--js')
+	const caseTwo = document.querySelector('.item-right__back--js')
+	const leftButton = document.querySelector('.item-left__front--js')
+	const rightButton = document.querySelector('.item-right__front--js')
+	const leftSection = document.querySelector('.item-left--js')
+	const rightSection = document.querySelector('.item-right--js')
 
 	if (window.innerWidth > 992) {
 			leftButton.addEventListener('click', () => {
